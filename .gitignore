@@ -1,0 +1,38 @@
+# Local environments and downloaded models
+.venv/
+venv/
+models/
+cache/
+runtime/
+__pycache__/
+*.py[cod]
+
+# Personal runtime configuration and records
+config.local.json
+config.json
+settings.json
+.env
+.env.*
+*.log
+*.bak
+*.lnk
+.vlm-work/
+
+# Documents, conversions and local verification artifacts
+*.pdf
+*.docx
+*.pptx
+*.zip
+*.jsonl
+qa*/
+outputs/
+verification.json
+tmp*/
+local-audit*/
+*_assets/
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

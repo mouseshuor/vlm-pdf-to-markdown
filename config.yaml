@@ -1,0 +1,6 @@
+model:
+  source: modelscope
+  small_backend: onnx
+  vlm:
+    engine: llama-cpp
+    max_concurrency: 4
